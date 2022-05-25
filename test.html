@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brukerstøtte</title>
+  <link rel="stylesheet" href="future.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <nav class="menu-bar">
+      <div class="menu">
+        <a href="index.html" id="menu-bar-logo">Brukerstøtte</a>
+        <div class="menu-bar-toggle" id="size-menu">
+          <span>
+            <div class="bar"></div>
+          </span>
+          <span>
+            <div class="bar"></div>
+          </span>
+          <span>
+            <div class="bar"></div>
+          </span>
+        </div>
+
+        <ul class="menu-bar-menu">
+          <li class="menu-bar_list">
+            <a href="index.html" class="menu-bar-links">Hjem</a>
+          </li>
+          <li class="menu-bar_list">
+            <a href="Future.html" class="menu-bar-links">Framtid</a>
+          </li>
+          <li class="menu-bar_btn">
+            <a href="Manual.html" class="button">Manual</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section>
+    <audio src="background-music.mp4" autoplay loop></audio>
+    <div class="main" id="test" style="height:650px; overflow:auto">
+      <div class="main-text">
+      <h1>Test om virtualisering</h1>
+      <p>Her skal du bli testet i hvor god du er i virtualisering!</p>
+      <p>Testen skal kun være spørsmål fra det du har lest om i boka.</p>
+      <p>Det blir kun alternativ spørsmål, hvor kun ett svar er riktig</p>
+      <p>Resultat kommer med en gang etter testen er ferdig</p>
+      <p> <button onclick="test(0)">Start testen</button></p>
+      </div>
+    </div>
+  </section>
+  <div style="background-color:rgb(54, 52, 52); height:70px"></div>
+  <footer>
+    <h3>Laget Av: <a href="index.html">BlueAvengerZ</a><br><h3 style="margin-top: 30px; font-size: 20px">Kilder:</h3></h3>
+
+    <div class="kilder">
+      <ul class="menu-bar-menu">
+      <li class="menu-bar_list">
+      <a href="https://pandorafms.com/blog/virtualization-technology/" class="menu-bar-links" style="font-size: 18px">Virtulalisering og ulike eksempler:</a>
+      </li>
+      <li class="menu-bar_list">
+      <a href="https://ndla.no/nb/subject:1:81b3892a-78e7-4e43-bc31-fd5f8a5090e7/topic:1:c7717a05-61ae-4d57-a470-8105eac4afad/topic:1:947270f5-e4ef-4e56-b60c-efff37352d56/topic:1:33d367f3-a371-498d-9614-2e0a807e5d50/resource:4d7f655a-5040-49f1-9d02-8951e56e6c10" class="menu-bar-links" style="line-height: 150%; font-size: 18px">Type 1 og Type 2 virtulalisering<br>Hvorfor virtualiserer vi:</a>
+      </li>
+      <li class="menu-bar_list">
+       <a href="https://www.youtube.com/watch?v=jdk6xCNmydU" class="menu-bar-links" style="font-size: 18px">Ulike typer virtuell svitsj:</a>
+      </li>
+    </ul>
+  </div>
+
+  </footer>
+
+  <script src="test.js"></script>
+
+</body>
+
+</html>
