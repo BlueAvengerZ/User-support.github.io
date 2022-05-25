@@ -4,6 +4,29 @@ menu.addEventListener('click', function() {
   menu.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
 })
+$(document).ready(function(){
+
+  // lager funksjon som gjør at, når blar ned så kommer det blå bakgrunn på menu bar.
+
+    $(window).scroll(function(){
+
+     // sticky menu-bar on scroll script Start
+
+
+    // hvis scrollY er større enn 20, så skal menu bar få blå bakgrunn.
+
+        if (this.scrollY > 20) {
+            $('.menu-bar').addClass("sticky");
+        }
+
+   // hvis ikke scrollY er større enn 20, så skal bakgrunne til menu bar fjernes.
+
+        else {
+              $('.menu-bar').removeClass("sticky");
+            }
+      });
+
+     // sticky menu-bar on scroll script End
 
 let arrIndeks = 0;
 let arrIndeks_1 = 0;
