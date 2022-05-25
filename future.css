@@ -4,6 +4,26 @@
   padding: 0;
   font-family: 'Kumbh Sans', sans-serif;
 }
+/* custom scroll bar Start */
+
+/* gir scrollbar bredde og oransje bakgunnsfarge.
+   Også hvis man har pilen over scrollbar bytter bakgunnsfarge til blå */
+
+  ::-webkit-scrollbar {
+      width: 10px;
+
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: orange;
+
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: blue;
+  }
+/* custom scroll bar End */
+
 
 .menu-bar {
   background: #141414;
