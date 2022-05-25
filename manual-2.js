@@ -258,7 +258,7 @@ let virtualization_examples = [
                 "<p><img src='VS/privat.png' width='300px' height='200px'></p>" +
                 "<p style='margin-top:15px'><b>Steg 2</b></p>" +
                 "<p>Dersom du trukket på Create Virtual Switch, vil det komme opp et vindu hvor du skal gi et navn til virtuelle svitsj din. Kall den det du ønsker og deretter trykk på <b>ok</b> knappen.</p>"},
-      {avsnitt: "<b>Steg 3</b>: <p>Etter at du har opprettet virtuell svitsj, kan du koble den med din virtuell maskin. Det kan du gjøre ved å høyre klikke på virtuell maskin som du har opprettet og deretter velger du <b>Settings.</b></p><br><p>Da vil du komme deg i settings vindu og du vil ha en del alternativer på venstre side. Velg <b>Network Adapter</b> og under virtuell switch velg virrtuell svitsj som du har opprettet tidligere.</p>"}
+      {avsnitt: "<b>Steg 3</b>: <p>Etter at du har opprettet virtuell svitsj, kan du koble den med din virtuell maskin. Det kan du gjøre ved å høyre klikke på virtuell maskin som du har opprettet og deretter velger du <b>Settings.</b></p><br><p>Da vil du komme deg i settings vindu og du vil ha en del alternativer på venstre side. Velg <b>Network Adapter</b> og under virtuell switch velg virtuell svitsj som du har opprettet tidligere.</p>"}
     ],
       bilde_til_avsnitt: [
       {
