@@ -56,7 +56,7 @@ let virtualization_examples = [
      overskrift1: "2",
      tekst: [
        {avsnitt: "<b>Steg 1:</b><p>For å installere virtuell maskin, trykker du på <b>Quik Create...</b>, derved vil du få valg om hvilken operativsystem som du vil ha på virtuelle maskin din. Velg et operativsystem og deretter trykk på <b>Create Virtual Machine</b> knappen. Til slutt vil installasjon til virtuelle maskin starte, vent til den er ferdig.</p>"},
-       {avsnitt: "<b>Steg 2:</b><p>Når installsjon er ferdig, vil det komme et vindu hvor det står <b>Connect</b>, trykk på den. Etter det vil det komme annen vindu hvor det står <b>Start</b>, trykk på den. Til slutt vil du komme en steg hvor du skal sette opp virtuell maskin, Gå til neste side for videre veiledning.</p>"}
+       {avsnitt: "<b>Steg 2:</b><p>Når installsjon er ferdig, vil det komme et vindu hvor det står <b>Connect</b>, trykk på den. Etter det vil det komme annen vindu hvor det står <b>Start</b>, trykk på den. Til slutt vil du komme til en steg hvor du skal sette opp virtuell maskin, Gå til neste side for videre veiledning.</p>"}
      ],
        bilde_til_avsnitt: [
        {
