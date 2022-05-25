@@ -29,7 +29,7 @@ $(document).ready(function(){
               $('.menu-bar').removeClass("sticky");
             }
       });
-
+    });
      // sticky menu-bar on scroll script End
 
 // array med spørmålene og aternativene:
