@@ -100,7 +100,7 @@ let virtualization_examples = [
       {avsnitt:"Her i dette steget, vil de ha tilgang til reklame-ID din, som vi føre til mer personlig annonsering (det vil si at du kommer til å annonser som er relevante for deg), hvis du ønsker å gjøre det, trykk på den øverst og hvis du ikke ønsker å gjøre det, trykk på den som er under. Hvis du har lyst til å mer informasjon om dette, trykke på knappen Learn more. Dersom du har tatt valget ditt, trykk på knappen <b>Accept.</b>"},
       {avsnitt: ""},
       {avsnitt: "Nå er du på nest siste steget, her skal du bare vente til klargjøring av operativsystem for virtuell maskin din er ferdig."},
-      {avsnitt: "Da er installasjonen til virtuell maskin ferdig og den er klar for bruk. Til slutt vil du bli spurt om hvilken størrelse øsnker du for skrivebordet i virtuell maskin. Deretter når du er ferdig med å bestemme hvilken størrelse, trykk på <b>´´Connect´´</b>"}
+      {avsnitt: "Da er installasjonen til virtuell maskin ferdig og den er klar for bruk. Til slutt vil du bli spurt om hvilken størrelse øsnker du for skrivebordet i virtuell maskin. Deretter når du er ferdig med å bestemme hvilken størrelse, trykk på <br> <b>´´Connect´´</b>"}
     ],
       bilde_til_avsnitt: [
       {
