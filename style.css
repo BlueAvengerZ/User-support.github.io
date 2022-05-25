@@ -21,7 +21,7 @@
   }
 
   ::-webkit-scrollbar-thumb:hover {
-      background: blue;
+      background: #ff8177;
   }
 /* custom scroll bar End */
 

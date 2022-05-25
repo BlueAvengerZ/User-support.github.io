@@ -20,7 +20,7 @@
   }
 
   ::-webkit-scrollbar-thumb:hover {
-      background: blue;
+      background: #ff8177;
   }
 /* custom scroll bar End */
 
@@ -510,12 +510,14 @@ footer a:hover {
 }
 
 .overskrift h2 {
+  width: 656px;
   color:#fff;
   background-color: #f77062;
   padding: 10px;
 }
 
 .overskrift h3 {
+  width: 656px;
   margin: 0;
   color: #fff;
   font-size: 20px;
@@ -542,7 +544,7 @@ footer a:hover {
   background-color: #f77062;
   padding:8px;
   font-weight: bolder;
-  right:458px;
+  right:451px;
   top:320px;
   width:200px;
   color: white;
@@ -555,7 +557,7 @@ footer a:hover {
   background-color: rgb(18, 27, 64);
   padding:10px;
   font-weight: bolder;
-  right:458px;
+  right:451px;
   top:430px;
   width:200px;
   color: white;
@@ -567,7 +569,7 @@ footer a:hover {
   font-size: 15px;
   padding:10px;
   font-weight: bolder;
-  right:458px;
+  right:451px;
   background-color: rgb(18, 27, 64);
   top:520px;
   width:200px;
@@ -580,7 +582,7 @@ footer a:hover {
   font-size: 15px;
   padding:10px;
   font-weight: bolder;
-  right:458px;
+  right:451px;
   background-color: rgb(18, 27, 64);
   top:610px;
   width:200px;
